@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
+
+.front-page {
+	display: flex;
+	justify-content: center;
+	background-image: url('../assets/front-bg.png');
+	min-height: 87.2vh;
+
+	.keep-updated-text {
+		padding: 0;
+		margin: 25vh auto auto;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 40px;
+		text-decoration: underline;
+		letter-spacing: 3px;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

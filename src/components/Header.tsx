@@ -13,21 +13,17 @@ const Header = () => {
 	return (
 		<div className='header'>
 			<HeaderLayout>
-				<motion.div id='title'
-					whileHover={{ scale: 0.95, scaleX: 1.001 }}
+				<motion.img
+					src={require('./assets/ski-logo.png')}
+					style={{ width: '350px', minHeight: '75px', backgroundRepeat: 'no-repeat', objectFit: 'cover' }}
+					alt='Cottonwood Waterski Lake'
 					onClick={e => navigateHome(e)}
-				>
-					<motion.h2
-						initial={{ x: '550%' }}
-						animate={{ x: '0' }}
-						transition={{ duration: 1 }}
-					>Cottonwood</motion.h2>
-					<motion.h2
-						initial={{ x: '-550%' }}
-						animate={{ x: '0' }}
-						transition={{ duration: 1 }}
-					>Waterski Lake</motion.h2>
-				</motion.div>
+					initial={{ y: -75 }}
+					whileInView={{ y: 0 }}
+					whileHover={{ scale: 1.05 }}
+					transition={{ duration: 0.5, type: 'spring', bounce: 0.35 }}
+					whileTap={{ scale: 0.95 }}
+				/>
 			</HeaderLayout>
 		</div>
 	);

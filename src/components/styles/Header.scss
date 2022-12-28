@@ -1,11 +1,10 @@
-$headerBackgroundColor: to left, rgb(0, 0, 0), rgb(22, 24, 45);
+$headerBackgroundColor: to left, rgb(6, 25, 11), rgb(7, 18, 7);
 $titleColor: rgb(34, 20, 20);
 
 .header {
 	display: grid;
-	position: fixed;
 	background: linear-gradient($headerBackgroundColor);
-	height: 6rem;
+	min-height: 12.5vh;
 	min-width: 100%;
 	border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
 
