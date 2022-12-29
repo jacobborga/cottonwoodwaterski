@@ -35,7 +35,7 @@ const HeaderLayout = (props: HeaderLayoutT) => {
 				whileInView={{ opacity: 1 }}
 				whileHover={{ scale: 1.2 }}
 				whileTap={{ scale: 0.95 }}
-			><Link to='/'>Members</Link></motion.div>
+			><Link to='/login'>Members</Link></motion.div>
 		</div>
 	);
 }

@@ -7,7 +7,7 @@ const FrontPage = () => {
 	const navigate = useNavigate();
 	return (
 		<motion.div
-			initial={{ opacity: 0.9 }}
+			initial={{ backgroundColor: 'rgb(225, 225, 225)', opacity: 0 }}
 			whileInView={{ opacity: 1 }}
 			className='front-page'
 		>

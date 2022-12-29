@@ -4,7 +4,7 @@
 /public/photoshop assets
 
 # firebase
-.env
+/src/database/firebase.ts
 
 # dependencies
 /node_modules

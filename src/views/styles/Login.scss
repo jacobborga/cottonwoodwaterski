@@ -1,0 +1,26 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	min-width: 100vw;
+	min-height: 87vh;
+	text-align: center;
+
+	#backdrop {
+		margin-top: 10vh;
+		padding: 2.5rem 5rem;
+		background-color: rgb(240, 240, 240);
+
+		h2 {
+			margin-bottom: 3rem;
+		}
+
+		#inputContainer {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			min-width: 30vw;
+		}
+	}
+}
