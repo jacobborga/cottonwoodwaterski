@@ -1,6 +1,6 @@
 import './styles/Header.scss';
 
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { motion } from "framer-motion"
 import HeaderLayout from './HeaderLayout';
 
